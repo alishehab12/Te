@@ -7,7 +7,7 @@ on:
 jobs:
   my_job:
     runs-on: ubuntu-latest
-
+    environment: production
     steps:
       - name: Something safe
         run: echo "Hello, world!"
